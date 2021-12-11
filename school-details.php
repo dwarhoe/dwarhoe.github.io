@@ -22,7 +22,7 @@
 		if ($schoolDetails['status']['code'] == 0) {
 			
 			//Setting up the variable in pre-set array
-		    $SchoolProfileAndDistrictInfo = $schoolDetails['school'][0]['SchoolProfileAndDistrictInfo'];
+		    $SchoolProfileAndDistrictInfo = $schoolDetails['school Home'][0]['SchoolProfileAndDistrictInfo'];
 		
 			//School Name
 			$schoolDetailData['school']['institutionname'] =  $SchoolProfileAndDistrictInfo['SchoolSummary']['institutionname'];
