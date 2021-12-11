@@ -56,7 +56,7 @@
 			//Principle Name
 			$schoolDetailData['principle']['Fullname'] =  $SchoolProfileAndDistrictInfo['DistrictContact']['Prefixliteral']." ".$SchoolProfileAndDistrictInfo['DistrictContact']['Firstname']." ".$SchoolProfileAndDistrictInfo['DistrictContact']['Lastname'];
 			echo $response = '<div class="active box">
-				<h1 class="white">'.$schoolDetailData['school']['institutionname'].'</h1>
+				<h1 class="white">'.$schoolDetailData['school Home']['institutionname'].'</h1>
 				<div class="address">
 					<img src="images/icons/pointer.png" alt="pointer">
 					<div class="location">
